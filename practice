@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Site</title>
+    <link rel="stylesheet" type="text/css" href="practice.css"
+  </head>
+  <body>
+    <h1>External Style Sheets are Cool</h1>
+    <p id="iamanid">I allow lskdfj</p>
+    <p class="iamaclass">I allow something</p>
+    <header>
+      <div id="column-1"></div>
+      <p>
+      <nav>
+        <ul>
+          <li><a href='/index.html'>Home</a></li>
+          <li><a href='/about.html'>About</a></li>
+          <li><a href='/contact.html'>Contact</a></li>
+        </ul>
+      </nav>
+      </p>
+    </header>
+    <section>
+      <form action="https://restaurant/reservations" method="get">
+</form>
+    <aside>
+      <p>This is sidebar text!</p>
+      <p>This is sidebar text!</p>
+    </aside>
+    <section>
+<table>
+  <thead>    Welcome! Please Enjoy Our Menu!
+     </thead>
+     <div id="column-2"></div>
+     <p>
+  <tbody>
+    <tr>
+      <th>Food</th>
+      <th>Description</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Salad</td>
+      <td>Fresh, delicious Cobb Salad</td>
+      <td>$7.99</td>
+      <img src="https://s3.amazonaws.com/bloc-foo/salad.jpg" alt="Salad.io">
+      </tr>
+      <tr>
+        <td>Burger</td>
+        <td>1/4lb grass-fed burger with choice of cheese</td>
+        <td>$6.99</td>
+        <img src="https://s3.amazonaws.com/bloc-foo/hamburger.jpg" alt="Burger.io">
+    </tr>
+    <tr>
+      <td>Chicken Salad Sandwich</td>
+      <td>Our world famous chicken salad on a bagel with homemade pickles</td>
+      <td>$8.99</td>
+      <img src="https://s3.amazonaws.com/bloc-foo/chicken_salad_sandwich.jpg" alt="Chicken Salad Sandwich.io">
+    </tr>
+    <tr>
+      <td>Buffalo Chicken Sandwich</td>
+      <td>Spicy fried chicken on a brioche bun</td>
+      <td>$10.99</td>
+      <img src="https://s3.amazonaws.com/bloc-foo/buffalo_chicken_sandwich.jpg" alt="Buffalo Chicken Sandwich.io">
+    </tr>
+    <tr>
+      <td>Fries</td>
+      <td>Hand cut potatoes lightly fried and seasoned</td>
+      <td>$1.99</td>
+      <img src="https://s3.amazonaws.com/bloc-foo/fries.jpeg" alt="Fries.io">
+    </tr>
+    <tr>
+      <td>Soda</td>
+      <td>Regular, diet, orange, or root beer</td>
+      <td>$1.00</td>
+      <img src="https://s3.amazonaws.com/bloc-foo/soda.jpeg" alt="Soda.io">
+    </tr>
+  </p>
+  </tbody>
+</table>
+    <section>
+      <form>
+        <fieldset>
+          <legend>Reservations</legend>
+          <input type="text" id="firstname"/>
+          <label for="firstname">First Name</label><br>
+          <input type="text" id="lastname"/>
+          <label for="lastname">Last Name</label><br>
+          <input type="email" id="email"/>
+          <label for="email">Email</label><br>
+          <input type="tel" id="tel"/>
+          <label for="tel">Phone Number</label>
+        </fieldset>
+      </form>
+      <form>
+      <select>
+        <select name="type">
+          <option value="Times">Times</option>
+          <textarea cols="50" rows="4"></textarea><br>
+          <input type="button" id="Submit"/>
+          <label for="Submit">Submit</label>
+      </select>
+    </section>
+    <footer>This is where any content in the footer would go</footer>
+  </body>
+</html>
